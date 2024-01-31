@@ -1,0 +1,89 @@
+.logins{
+    position: relative;
+    height: 100%;
+    background: url("https://thefatork.store/cdn/shop/articles/netflix.jpg") center no-repeat;
+    background-size: cover;
+    
+}
+.logins_logo{
+    cursor: pointer;
+    position: fixed;
+    left: 10%;
+    width: 200px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+.logins_button{
+    cursor: pointer;
+    position: fixed;
+    background-color: red;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    right: 10%;
+    top: 30px;
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.logins_gradient{
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background: rgba(0,0,0,0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.798) 0,
+        rgba(0,0,0,0) 60%,
+        rgba(0,0,0,0.8) 100%,
+    );
+}
+.logins_body>h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.logins_body{
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+    top: 25%;
+    text-align: center;
+    left: 10%;
+    right: 10%;
+ 
+}
+.logins_body>h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.logins_body>h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 28px;
+}
+.logins_input{
+    margin: 20px;
+}
+.logins_input>form>input{
+    padding: 10px;
+    outline: none;
+    height: 30px;
+    width: 50%;
+    border: none;
+    max-width:600px;
+}
+
+.logins_getsb{
+    padding: 18px 20px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+

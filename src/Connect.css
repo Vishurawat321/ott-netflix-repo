@@ -1,0 +1,38 @@
+
+.signups_netflix{
+    max-width: 300px;
+    padding: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    display: grid;
+    flex-direction: column;
+    border-radius:5px ;
+}
+.BalanceShow>label{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color:white;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.Amount_to_Pay{
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    color:white;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.confirm_button{
+    padding: 16px 20px;
+    border-radius: 5px;
+    background-color: red;
+    color: #fff;
+    border: 0;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
